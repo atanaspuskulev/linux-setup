@@ -11,4 +11,5 @@ sudo apt install -y vim \
     neovim \
     exuberant-ctags \
     git \
-    dnsutils
+    dnsutils \
+    gcc
