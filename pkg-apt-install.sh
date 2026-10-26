@@ -12,4 +12,10 @@ sudo apt install -y vim \
     exuberant-ctags \
     git \
     dnsutils \
-    gcc
+    gcc \
+    shellcheck \ 
+    fonts-firacode
+
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
